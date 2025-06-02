@@ -1,6 +1,25 @@
 main{
     background-color: white;
 }
-.imges{
-    width: 5px;
+.images{
+    width: 25px;
+    height: auto;
+    position: absolute;
+
+}
+.visual{
+    display: flex;
+    flex-direction: row; 
+    align-items:center;
+    margin-top: 2rem;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    column-gap: 10rem;
+    margin-top: ;
+}
+.input{
+    width: 20rem;
+    height: 2rem;
 }
