@@ -1,25 +1,75 @@
+body{
+    background-color: rgb(77, 81, 93);
+}
 main{
+    height: 42rem;
+    width: 75%;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: row;
     background-color: white;
+    border-radius: 5px;
 }
 .images{
     width: 25px;
     height: auto;
-    position: absolute;
-
+    margin-left: 2rem;
 }
 .visual{
     display: flex;
-    flex-direction: row; 
+    flex-direction: c; 
     align-items:center;
-    margin-top: 2rem;
+    margin-top: 1rem;
+     width: 35rem;
+    height: 4rem;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px 2px gray;
+}
+h2{
+    margin-top: 7rem;
+    font-size: 3rem;
+    font-weight: 300;
+}
+.paragraph{
 }
 .all{
     display: flex;
     flex-direction: column;
-    column-gap: 10rem;
-    margin-top: ;
+    margin-top: 2rem;
+     margin-left: 5rem;
 }
 .input{
-    width: 20rem;
-    height: 2rem;
+    margin: auto;
+    padding-right: 5rem;
+}
+header{
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    column-gap: 2px;
+}
+.rightpart{
+    background-image: url(side.jpg);
+    background-size:cover;
+    width: 25rem;
+    margin-left: auto;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: wheat;
+    height: 6rem;
+    width: 50rem;
+    margin-left: auto;
+    margin-top: 2.8rem;
+    border-bottom-left-radius: 5px;
+    border-top: 1px solid black;
+}
+.footerleft{
+    margin-left: 5rem;
 }
